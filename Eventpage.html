@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Events</title>
+	<link rel="stylesheet" href="font_face.css">
+    <style>
+body {
+    margin: 0;
+    font-family: Anek;
+    text-align: center;
+    min-height: 100vh;
+    position: relative;
+	background-color: #B2FEFA;
+}
+
+/* PNG background with low opacity */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url('letters.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.2;              /* 👈 adjust opacity here */
+    z-index: -1;
+}
+
+        h1 {
+            margin-top: 20px;
+			font-size: 44px;
+			font-weight: normal;
+            background-color: #155799;
+            color: white;
+			font-family: "Shamim";
+			background-color: #155799;
+			padding: 2px;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+        }
+
+        .side {
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+       .side button {
+    width: 100%;
+    max-width: 160px;
+    padding: 12px 10px;
+    font-size: 17px;
+	font-family: Anek;
+    background-color: #155799;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+        .center {
+            width: 30%;
+        }
+
+        .center img {
+            width: 100%;
+            max-width: 300px;
+        }
+
+        footer {
+            padding: 5px;
+            background-color: #155799;
+            color: white;
+			font-size: 18px;
+        }
+.side-left {
+    grid-template-columns: repeat(3, 1fr);
+}
+.side-right {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.group {
+    grid-column: 1 / -1;   /* 👈 spans all columns */
+    padding: 14px 14px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #155799;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+.group2 {
+    grid-column: 1 / -1;   /* 👈 spans all columns */
+    padding: 14px 14px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #9F2B68;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+    </style>
+</head>
+<body>
+
+    <h1>৪১ তম বীরভূম জেলা বার্ষিক ক্রীড়া প্রতিযোগিতায় আপনাকে স্বাগতম</h1>
+
+    <div class="container">
+        <!-- Left Buttons -->
+<div class="side side-right">
+    <div class="group">বালক</div>
+
+    <button>‘ক’ ৭৫মিঃ দৌড়</button>
+	<button>‘ক’ আলু দৌড়</button>
+	<button>‘ক’ দীর্ঘলম্ফন</button>
+    <button>‘ক’ যোগা</button>
+    <button>‘খ’ ১০০মিঃ দৌড়</button>
+    <button>‘খ’ ২০০মিঃ দৌড়</button>
+    <button>‘খ’ দীর্ঘলম্ফন</button>
+    <button>‘খ’ উচ্চলম্ফন</button>
+    <button>‘খ’ যোগা</button>
+    <button>‘খ’ জিমন্যাস্টিক</button>
+    <button>‘গ’ ১০০মিঃ দৌড়</button>
+    <button>‘গ’ ২০০মিঃ দৌড়</button>
+    <button>‘গ’ দীর্ঘলম্ফন</button>
+    <button>‘গ’ উচ্চলম্ফন</button>
+    <button>‘গ’ যোগা</button>
+    <button>‘গ’ জিমন্যাস্টিক</button>
+    <button>‘গ’ ফুটবল ছোড়া</button>
+</div>
+
+
+        <!-- Center Image -->
+        <div class="center">
+            <img src="bhim_win.png" width="180px" height="610px"/>
+        </div>
+
+        <!-- Right Buttons -->
+ <div class="side side-left">
+    <div class="group2">বালিকা</div>
+
+    <button style="background-color: #9F2B68" onclick="window.location.href='run33.html';">‘ক’ ৭৫মিঃ দৌড়</button>
+	<button style="background-color: #9F2B68">‘ক’ আলু দৌড়</button>
+	<button style="background-color: #9F2B68">‘ক’ দীর্ঘলম্ফন</button>
+    <button style="background-color: #9F2B68">‘ক’ যোগা</button>
+    <button style="background-color: #9F2B68">‘খ’ ১০০মিঃ দৌড়</button>
+    <button style="background-color: #9F2B68">‘খ’ ২০০মিঃ দৌড়</button>
+    <button style="background-color: #9F2B68">‘খ’ দীর্ঘলম্ফন</button>
+    <button style="background-color: #9F2B68">‘খ’ উচ্চলম্ফন</button>
+    <button style="background-color: #9F2B68">‘খ’ যোগা</button>
+    <button style="background-color: #9F2B68">‘খ’ জিমন্যাস্টিক</button>
+    <button style="background-color: #9F2B68">‘গ’ ১০০মিঃ দৌড়</button>
+    <button style="background-color: #9F2B68">‘গ’ ২০০মিঃ দৌড়</button>
+    <button style="background-color: #9F2B68">‘গ’ দীর্ঘলম্ফন</button>
+    <button style="background-color: #9F2B68">‘গ’ উচ্চলম্ফন</button>
+    <button style="background-color: #9F2B68">‘গ’ যোগা</button>
+    <button style="background-color: #9F2B68">‘গ’ জিমন্যাস্টিক</button>
+    <button style="background-color: #9F2B68">‘গ’ ফুটবল ছোড়া</button>
+</div>
+    </div>
+
+    <footer>
+        
+    </footer>
+
+</body>
+</html>
