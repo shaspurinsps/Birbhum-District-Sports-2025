@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Anek";
+    src: url("fonts/Anek.woff2") format("woff2"),
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Aparajito";
+    src: url("fonts/Aparajito.woff2") format("woff2"),
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Shamim";
+    src: url("fonts/Shamim.woff2") format("woff2"),
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Speed";
+    src: url("fonts/Speed.woff2") format("woff2"),
+    font-weight: normal;
+    font-display: swap;
+}
